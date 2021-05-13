@@ -1,0 +1,123 @@
+body,h1,h2,h3,nav,ul,li,p{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: cadetblue;
+    color:beige;
+}
+#name{
+    padding: 12px;
+}
+nav{
+    margin-top: -40px;
+    float: right;
+}
+ul{
+    display: flex;
+    list-style: none;  
+}
+li{
+    cursor: pointer;
+    padding: 12px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color:aquamarine
+    
+}
+a:hover{
+    color:burlywood
+}
+.subtitle{
+    display: flex;
+    height: 200px;
+    background-color: antiquewhite;
+    
+}
+.subtitle p{
+    margin-top: 70px;
+    margin-left: 45%;
+}
+.aboutme{
+
+    padding: 12px;
+    height: max-content;
+    background-color:rgb(107, 209, 209);
+
+}
+.aboutme-container{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.aboutme-card{
+    margin-left: 1%;
+    padding: 12px;
+}
+img{
+    width: 200px;
+    height: 250px;
+}
+.writing{
+    width: 400px;
+    height: 90%;
+    margin-left: 1%;
+    /* background-color: aliceblue; */
+}
+.mywork{
+    padding: 15px;
+    height: max-content;
+    background-color:beige;
+}
+.container{  
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.work-card{
+    border-radius: 5px;
+    width: 720px;
+    height: 200px;
+    background-color:cadetblue;
+    padding: 12px;
+    margin: 12px;
+    padding-left: 0;
+}
+.project1{
+    width: 95.8%;
+    height: 300px;
+}
+.contact{
+    height: 100px;
+    background-color: rgb(33, 150, 150);
+    padding: 12px;
+}
+.resume{
+    height: 100px;
+    background-color: darkcyan;
+    padding: 12px;
+}
+.work-title{
+    width: max-content;
+    height: max-content;
+    background-color:cornflowerblue;
+    padding: 10px;
+    padding-left: 50px;
+    line-height: 3px; 
+    
+}
+span{
+    display: block;
+    margin: 20px;
+}
+.p{
+    font-size: 16px;
+}
